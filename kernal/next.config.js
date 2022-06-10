@@ -1,5 +1,4 @@
-const TRIAGE_URL = "http://localhost:4000";
-const STAR_WARS_URL = "http://localhost:5000";
+const {TRIAGE_URL, STAR_WARS_URL} = process.env;
 
 module.exports = {
   rewrites() {
